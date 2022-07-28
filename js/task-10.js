@@ -28,5 +28,4 @@ function createBoxes(amount) {
   }
 
   document.querySelector("#boxes").innerHTML = boxes.join("");
-  console.log(boxes.join(""));
 }
