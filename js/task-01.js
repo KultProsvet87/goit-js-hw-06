@@ -6,4 +6,3 @@ categoriesEl.forEach((value) => {
   console.log(`Category: ${value.querySelector("h2").textContent}`);
   console.log(`Elements: ${value.querySelectorAll("li").length}`);
 });
-// console.log(categoriesEl);

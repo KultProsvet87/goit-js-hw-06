@@ -10,16 +10,6 @@ const decrementButtonEl = document.querySelector(
 
 const targetEl = document.querySelector("#value");
 
-// const chengElemetValue = (event) => {
-//   if (event.currentTarget.dataset.action === "decrement") {
-//     counterValue -= 1;
-//     targetEl.textContent = counterValue;
-//     return;
-//   }
-//   counterValue += 1;
-//   targetEl.textContent = counterValue;
-// };
-
 incrementButtonEl.addEventListener("click", chengElemetValue);
 decrementButtonEl.addEventListener("click", chengElemetValue);
 
